@@ -1,0 +1,24 @@
+{
+    "name": "vphpw/demos",
+    "description": "Sample project to demonstrate Vim PHP Wrapper",
+    "type": "project",
+    "homepage": "https://github.com/diepm/vphpw-demos",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "diepm",
+        "homepage": "https://github.com/diepm"
+      }
+    ],
+    "require": {
+      "php": ">=5.6"
+    },
+    "autoload": {
+      "psr-4": {
+        "Vphpw\\": "src/"
+      }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
